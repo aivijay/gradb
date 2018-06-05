@@ -1,5 +1,5 @@
-(ns gidb.query
-   [:use [gidb constructs]
+(ns gradb.query
+   [:use [gradb constructs]
     [clojure.set :as CS :only (intersection)]])
 
 (defn variable?

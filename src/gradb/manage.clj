@@ -1,6 +1,6 @@
-(ns gidb.manage
+(ns gradb.manage
   "Management of db connections (from the user's perspective), internally creates / drops dbs."
-  (:use gidb.constructs))
+  (:use gradb.constructs))
 
 (def ^:private __ALL-DBS__ (atom {}))
 

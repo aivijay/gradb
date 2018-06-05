@@ -1,4 +1,4 @@
-(ns gidb.constructs
+(ns gradb.constructs
    (:use fdb.storage)
   (:import [fdb.storage.InMemory]))
 

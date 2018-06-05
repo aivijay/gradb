@@ -1,4 +1,4 @@
-(ns gidb.storage)
+(ns gradb.storage)
 
 (defprotocol Storage
   (get-entity [storage e-id] )

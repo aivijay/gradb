@@ -1,5 +1,5 @@
-(ns gidb.graph
-  (:use gidb.constructs))
+(ns gradb.graph
+  (:use gradb.constructs))
 
 (defn outgoing-refs [db ts ent-id & ref-names]
   (let [val-filter-fn (if ref-names #(vals (select-keys ref-names %)) vals)]
