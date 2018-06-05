@@ -1,6 +1,6 @@
 # gradb
 
-A simple graph inmemory database implementation in Clojure.
+A simple inmemory graph database implementation in Clojure.
 
 ## Usage
 
