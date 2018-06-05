@@ -1,4 +1,4 @@
-# gidb
+# gradb
 
 A simple graph inmemory database implementation in Clojure.
 
