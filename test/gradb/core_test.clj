@@ -1,6 +1,6 @@
-(ns gidb.core-test
+(ns gradb.core-test
   (:require [clojure.test :refer :all]
-            [gidb.core :refer :all]))
+            [gradb.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

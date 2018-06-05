@@ -1,5 +1,5 @@
-(ns gidb.core
-  [:use [gidb storage query constructs]]
+(ns gradb.core
+  [:use [gradb storage query constructs]]
   [:require [clojure.set :as CS :only (union difference intersection)]])
 
 (defn- next-ts [db] (inc (:curr-time db)))
